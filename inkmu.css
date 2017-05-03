@@ -1,0 +1,81 @@
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+
+body{
+
+ margin-top:60px;
+ text-align:center;
+}
+
+h2{
+
+color:black;
+letter-spacing:10px;
+font-family: 'Nanum Pen Script', serif;
+font-size:50px;
+
+}
+
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.present {
+    background-color:green ;
+    color: white;
+}
+
+.dashed{
+border-color:black;
+border-style:dashed;
+border-width:5px;
+margin-left:280px;
+margin-right:280px;
+padding-top:30px;
+padding-bottom:30px;
+}
+
+.sansserif{
+   font-family:Verdana,Arial,Helvetica,cursive;
+}
+
+.effect{
+  font-style:italic;
+  font-weight:bold;
+  color:red;
+}
+
+.click:link,.click:visited{
+
+    background-color: white;
+    color: black;
+    font-weight:bold;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.click:hover{
+    background-color: green;
+    color: white;
+}
+
+.click:active{
+    background-color: green;
+    color:red;
+}
+  
+
+
+

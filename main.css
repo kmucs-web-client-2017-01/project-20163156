@@ -1,0 +1,60 @@
+h1{
+	color:white;
+	text-shadow:2px 2px 4px green;
+	text-align:center;
+	padding:30px;
+	font-size:60px;
+}
+.zindex{
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:-1;
+	display:inline-block;
+}
+
+ul{
+	list-style-type:none;
+	margin-top:80px;
+	text-align:center;
+	
+
+}
+
+li{
+	display:inline;
+	letter-spacing:5px;
+	
+
+}
+
+li a{
+	color:black;	
+	display:inline-block;		
+	text-decoration:none;
+	font-size:25px;
+	padding:60px;
+	
+}
+
+li a:hover{
+	background-image:url("hover-icon.png");
+	background-repeat:no-repeat;
+
+}
+
+
+.polaroid{ 
+  width:15%;
+  display:inline-block;
+  margin-left:120px;
+  background-color:white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+.container{
+  text-align:center;
+  padding-bottom:5px;
+}
+
