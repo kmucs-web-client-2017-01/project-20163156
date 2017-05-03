@@ -75,7 +75,17 @@ padding-bottom:30px;
     background-color: green;
     color:red;
 }
-  
+
+
+img {
+    opacity: 0.7;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
 
 
 
