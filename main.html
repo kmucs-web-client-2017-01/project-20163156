@@ -3,12 +3,14 @@
 	<link rel="stylesheet" href="main.css">
 	<title>JIYEON'S RECOMMENDED RESTAURANT</title>
 	<meta charset="UTF-8">
-	<meta name="purpose" contet="Web Clienting Project-1">
+	<meta name="purpose" content="Web Clienting Project-1">
 	<meta name="description" content="I introduce a delicious restaurant that I went to">
 	<meta name="author" content="Jiyeon Jeoung">
 
+
+
 </head>
-<body>
+<body onload = "load()">
 	
 	<h1>JIYEON'S RECOMMENDED RESTAURANT</h1>
 	<img class="zindex" src="title.jpg" width="1535" height="220" alt="title-background image">
@@ -23,30 +25,38 @@
      	</nav>
 	
 	<div class="polaroid">
-	  <img src="kmu1.JPG" title="spaghetti" alt="spaghetti" width=100% >
+	  <img id="img" src="kmu1.JPG" title="inkmu" alt="inkmu" width=100% >
 	  <div class="container">
-	    <p>Go to IN KMU page</p>
+		<p id ="demo1">Get more infomation!</p>
+		<button type="button" onclick='pagekmu()'>Click Me!</button>
+
 	  </div>
 	</div>
 	
 	<div class="polaroid">
-	  <img src="bucheon-1.JPG" title="hamburger" alt="hamburger" width=100% >
+	  <img id = "img2" src="bucheon-1.JPG" title="inbucheon" alt="inbucheon" width=100% >
 	  <div class="container">
-	    <p>Go to IN BUCHEON page</p>
+		<p id ="demo2">Get more infomation!</p>
+		<button type="button" onclick='pagebucheon()'>Click Me!</button>
 	  </div>
 	</div>
 
 	<div class="polaroid">
-	  <img src="seoul-3.JPG" title="cocktail" alt="cocktail" width=100% >
+	  <img id = "img3"src="seoul-3.JPG" title="inseoul" alt="inseoul" width=100% >
 	  <div class="container">
-	    <p>Go to IN SEOUL page</p>
+		<p id ="demo3">Get more infomation!</p>
+		<button type="button" onclick='pageseoul()'>Click Me!</button>
+
+	  </div>
 	  </div>
 	</div>
 
 	<div class="polaroid">
-	  <img src="seoul-5.JPG" title="dessert" alt="dessert" width=100% >
+	  <img id = "img4" src="seoul-5.JPG" title="inseoul" alt="inseoul" width=100% >
 	  <div class="container">
-	    <p>Go to IN SEOUL Page</p>
+		<p id ="demo4">Get more infomation!</p>
+		<button type="button" onclick='pageseoul2()'>Click Me!</button>
+
 	  </div>
 	</div>
 	
@@ -57,7 +67,7 @@
 	</details> 
 	
 	
-	
+	<script type = "text/javascript" src = "main.js"></script>
 
 </body>
 </html>
