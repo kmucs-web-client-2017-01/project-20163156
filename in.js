@@ -41,6 +41,13 @@ $(document).ready(function()
 });
 
 
+function gomain()
+{
+	location.replace("main.html");
+};
+
+
+
 
 
 
