@@ -4,12 +4,32 @@
 	<link rel="stylesheet" href="inkmu.css"> 
 	<title>IN SEOUL</title>
 	<meta charset="UTF-8">
+ 	<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
 </head>
-<body>
+<body onpageshow = "show3()">
+
+	<span class="change">Mouse over the squares!</span>
+	<table style="width:300px;height:100px">
+	  <tr>
+	    <td onmouseover="bgChange(this.style.backgroundColor)" 
+		style="background-color:Khaki">
+	    </td>
+	    <td onmouseover="bgChange(this.style.backgroundColor)" 
+		style="background-color:PaleGreen">
+	    </td>
+	    <td onmouseover="bgChange(this.style.backgroundColor)" 
+		style="background-color:Silver">
+	    </td>
+	  </tr>
+	</table>
+
 	<div class="sansserif">
 	<h2 class="dashed">1. 혼카츠</h2>
 	<a target="_blank" href="seoul-1.JPG">
-		<img src="seoul-1.JPG" width=20% title="pork cutlet" alt="pork cutlet"></a>
+		<img  onmouseenter="bigger(this)" onmouseleave ="normal(this)" src="seoul-1.JPG" width=20% title="pork cutlet" alt="pork cutlet"></a>
+
+	<div class="ex">
+  	<button class="hide">Hide me</button>
 	<p>Location : 358-49,Seokyo-dong, Mapo-gu, Seoul</p>
 	<p>Type of food : Japanese </p>
 	<p>Price : Cheese pork cutlet : 9000won Codfish cutlet : 7000won</p>
@@ -17,29 +37,33 @@
 	<p class="effect">Review : It is good to have a lot of cheese in cheese pork cutlet.<br> You can enjoy crispy pork cutlet.
 It came out on the TV so much, and it tasted as good as famous.</p>
 	<p>Tip: if you want to get more information <a class="click" href="http://www.menupan.com/Restaurant/GoodRest/GoodRest_View.asp?ID=173005" target="_blank"> <span> CLICK </span></a></p>
-	</div>
+	</div></div>
 
 
 	<div class="sansserif">
 	<h2 class="dashed">2. 곱창이야기</h2>
 	<a target="_blank" href="seoul-2.JPG">
-		<img src="seoul-2.JPG" width=20% height=305px title="곱창" alt="곱창"></a>
+		<img  onmouseenter="bigger(this)" onmouseleave ="normal(this)" src="seoul-2.JPG" width=20% height=305px title="곱창" alt="곱창"></a>
 	<a target="_blank" href="seoul-2-2.JPG">
-		<img src="seoul-2-2.JPG" width=20% height=305px title="fried rice" alt="fried rice"><a/>
+		<img  onmouseenter="bigger(this)" onmouseleave ="normal(this)" src="seoul-2-2.JPG" width=20% height=305px title="fried rice" alt="fried rice"><a/>
+	
+	<div class="ex">
+  	<button class="hide">Hide me</button>	
 	<p>Location : Da-gil 20, Dongsun Munro, Seongbuk-gu, Seoul</p>
 	<p>Type of food : korean </p>
 	<p>Price : cow 곱창 : 12000won cow 막창 : 16000won </p>
 	<p class="effect">Review : It is easy to be located in the Sungshin Women's University near the school, though the price is burdensome.<br>Here, a special powder called angel powder is sprinkled on the food, and it is unusual and delicious. </p>
 	<p>Tip: if you want to get more information <a class="click" href="http://www.gobstory.com/" target="_blank"> <span> CLICK </span></a></p>
-	</div>
+	</div></div><br>
 
+	<script type = "text/javascript" src = "in.js"></script>
 	<div class="pagination">
 	 	<a href="inseoul.html"><<</a>
   		<a class="present" href="inseoul.html">1</a>
 	 	<a href="inseoul2.html">2</a>
   		<a href="inseoul3.html">3</a>
   		<a href="inseoul3.html">>></a>
-	</div>
+	</div><br>
 	
 	<a href="main.html">	
 		<img src="home.png" title="home" alt="home"></a>

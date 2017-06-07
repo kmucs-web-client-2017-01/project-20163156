@@ -4,13 +4,33 @@
 	<link rel="stylesheet" href="inkmu.css"> 
 	<title>IN SEOUL</title>
 	<meta charset="UTF-8">
+ 	<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
 </head>
 <body>
+
+	<span class="change">Mouse over the squares!</span>
+
+
+	<table style="width:300px;height:100px">
+	  <tr>
+	    <td onmouseover="bgChange(this.style.backgroundColor)" 
+		style="background-color:Khaki">
+	    </td>
+	    <td onmouseover="bgChange(this.style.backgroundColor)" 
+		style="background-color:PaleGreen">
+	    </td>
+	    <td onmouseover="bgChange(this.style.backgroundColor)" 
+		style="background-color:Silver">
+	    </td>
+	  </tr>
+	</table>
 	<div class="sansserif">
 	<h2 class="dashed">3. BURP</h2>
-	<img src="seoul-3.JPG" width=20% title="cocktail" alt="cocktail">
-	<img src="seoul-3-2.JPG" width=20% title="cocktail" alt="cocktail">
-	<img src="seoul-3-3.JPG" width=20% title="burp" alt="burp">
+	<img  onmouseenter="bigger(this)" onmouseleave ="normal(this)" src="seoul-3.JPG" width=20% title="cocktail" alt="cocktail">
+	<img  onmouseenter="bigger(this)" onmouseleave ="normal(this)" src="seoul-3-2.JPG" width=20% title="cocktail" alt="cocktail">
+	<img  onmouseenter="bigger(this)" onmouseleave ="normal(this)" src="seoul-3-3.JPG" width=20% title="burp" alt="burp">
+	<div class="ex">
+  	<button class="hide">Hide me</button>
 	<p>Location : 2nd floor of Jeongwoon Bldg. 55-2, Aulmadang Road, Mapo-gu, Seoul</p>
 	<p>Type of food : bar </p>
 	<p>Price : French Fries: 8000won lime Mohito : 10000won set menu(cocktail 4 cups) : 29000won</p>
@@ -19,12 +39,15 @@
 The bar is cute and vintage. <br>Each one of the cocktails makes it look good, so it looks good and I feel the detail care.
 </p>
 	<p>Tip: if you want to get more information <a class="click" href="https://www.instagram.com/burp_cocktailbar/" target="_blank"> <span> CLICK </span></a></p>
-	</div>
+	</div></div>
 
 	<div class="sansserif">
 	<h2 class="dashed">4. Dore Dore</h2>
-	<img src="seoul-5.JPG" width=20% height=305px title="cake,coffee" alt="cake,coffee">
-	<img src="seoul-5-2.JPG" width=20% height=305px title="cake,coffee" alt="cake,coffee">
+	<img  onmouseenter="bigger(this)" onmouseleave ="normal(this)" src="seoul-5.JPG" width=20% height=305px title="cake,coffee" alt="cake,coffee">
+	<img  onmouseenter="bigger(this)" onmouseleave ="normal(this)" src="seoul-5-2.JPG" width=20% height=305px title="cake,coffee" alt="cake,coffee">
+	
+	<div class="ex">
+  	<button class="hide">Hide me</button>
 	<p>Location : Korea Railroad Corporation 378 Cheongpa-ro Road, Yongsan-gu, Seoul</p>
 	<p>Type of food : dessert </p>
 	<p>Price : americano : 4000won cake : 7500won ~ 9000won</p>
@@ -33,15 +56,16 @@ The bar is cute and vintage. <br>Each one of the cocktails makes it look good, s
 Americano is large and can be eaten for a long time.<br> The interior of the cafe is very elegant and is perfect for selfie.
  </p>
 	<p>Tip: if you want to get more information <a class="click" href="http://doredore.co.kr/" target="_blank"> <span> CLICK </span></a></p>
-	</div><
+	</div></div><br>
 
+	<script type = "text/javascript" src = "in.js"></script>
 	<div class="pagination">
 	 	<a href="inseoul.html"><<</a>
   		<a href="inseoul.html">1</a>
 	 	<a class="present" href="inseoul2.html">2</a>
   		<a href="inseoul3.html">3</a>
   		<a href="inseoul3.html">>></a>
-	</div>
+	</div><br>
 	
 	<a href="main.html">	
 		<img src="home.png" title="home" alt="home"></a>

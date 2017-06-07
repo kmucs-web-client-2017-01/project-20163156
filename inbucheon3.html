@@ -4,44 +4,70 @@
 	<link rel="stylesheet" href="inkmu.css"> 
 	<title>IN BUCHEON</title>
 	<meta charset="UTF-8">
+ 	<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
 </head>
 <body>
+
+	<span class="change">Mouse over the squares!</span>
+
+
+	<table style="width:300px;height:100px">
+	  <tr>
+	    <td onmouseover="bgChange(this.style.backgroundColor)" 
+		style="background-color:Khaki">
+	    </td>
+	    <td onmouseover="bgChange(this.style.backgroundColor)" 
+		style="background-color:PaleGreen">
+	    </td>
+	    <td onmouseover="bgChange(this.style.backgroundColor)" 
+		style="background-color:Silver">
+	    </td>
+	  </tr>
+	</table>
+
 	<div class="sansserif">	
 	<h2 class="dashed">5. 곱창박스</h2>
 	<a target="_blank" href="bucheon-5.JPG">
-		<img src="bucheon-5.JPG" width=20% title="막창" alt="막창"></a>
+		<img  onmouseenter="bigger(this)" onmouseleave ="normal(this)" src="bucheon-5.JPG" width=20% title="막창" alt="막창"></a>
 	<a target="_blank" href="bucheon-5-2.JPG">
-		<img src="bucheon-5-2.JPG" width=20% title="fried rice" alt="fried rice"></a>
+		<img  onmouseenter="bigger(this)" onmouseleave ="normal(this)" src="bucheon-5-2.JPG" width=20% title="fried rice" alt="fried rice"></a>
+
+	<div class="ex">
+  	<button class="hide">Hide me</button>	
 	<p>Location : 17-1,13 yeokgokro, Bucheon, Gyeonggi-do</p>
 	<p>Type of food : korean </p>
 	<p>Price : 야채곱창 : 8000won 양념막창 : 9000won
 	<p>Number : 032-349-9200 </p>
 	<p class="effect">Review : This restaurant is located in front of the Catholic University, <br>so I went there because it was popular with students. The boss is kind, too.<br> The special thing about this restaurant is that it gives soybean flour, and it is delicious when I eat it in soybean flour.</p>
-	<p>Tip: if you want to get more information <a class="click" href="https://store.naver.com/restaurants/detail?id=66411555" target="_blank"> <span> CLICK </span></a></p>
+	<p>Tip: if you want to get more information <a class="click" href="https://store.naver.com/restaurants/detail?id=66411555" target="_blank"> <span> CLICK </span></a></p></div></div>
 
 	<div class="sansserif">	
 	<h2 class="dashed">6. Berry Bullet</h2>
 	<a target="_blank" href="bucheon-6-2.JPG">
-		<img src="bucheon-6-2.JPG" width=20% height=300px title="omelette" alt="omelette"></a>
+		<img onmouseenter="bigger(this)" onmouseleave ="normal(this)"  src="bucheon-6-2.JPG" width=20% height=300px title="omelette" alt="omelette"></a>
 	<a target="_blank" href="bucheon-6.JPG">
-		<img src="bucheon-6.JPG" width=20% height=300px title="omelette" alt="omelette"></a>
+		<img  onmouseenter="bigger(this)" onmouseleave ="normal(this)" src="bucheon-6.JPG" width=20% height=300px title="omelette" alt="omelette"></a>
 	<a target="_blank" href="bucheon-6-3.JPG">
-		<img src="bucheon-6-3.JPG" width=20% height=300px title="omelette" alt="omelette"></a>
+		<img  onmouseenter="bigger(this)" onmouseleave ="normal(this)" src="bucheon-6-3.JPG" width=20% height=300px title="omelette" alt="omelette"></a>
+	
+	<div class="ex">
+  	<button class="hide">Hide me</button>	
 	<p>Location : Bucheon-ro 38, Bucheon, Gyeonggi</p>
 	<p>Type of food : dessert </p>
 	<p>Price : Strawberry Omelette : 13000won Cookies & Cream Omelettes : 12000won Greentea Omelettes : 14000won
 	<p>Number : 032-651-2326 </p>
 	<p class="effect">Review :One of the most popular sns on these days is the strawberry omelet. It is simple to eat with a bite.<br> The combination of eating strawberries, fresh cream and bread will continue to eat, and at some point you will see an empty box.</p>
 	<p>Tip: if you want to get more information <a class="click" href="https://store.naver.com/restaurants/detail?id=41594003" target="_blank"> <span> CLICK </span></a></p>
-	</div>
+	</div></div><br>
 
+	<script type = "text/javascript" src = "in.js"></script>
 	<div class="pagination">
 	 	<a href="inbucheon.html"><<</a>
   		<a href="inbucheon.html">1</a>
 	 	<a href="inbucheon2.html">2</a>
   		<a class="present" href="inbucheon3.html">3</a>
   		<a href="inbucheon3.html">>></a>
-	</div>
+	</div><br>
 	
 	<a href="main.html">	
 		<img src="home.png" title="home" alt="home"></a>

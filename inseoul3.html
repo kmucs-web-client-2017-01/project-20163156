@@ -4,16 +4,36 @@
 	<link rel="stylesheet" href="inkmu.css"> 
 	<title>IN SEOUL</title>
 	<meta charset="UTF-8">
+ 	<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
 </head>
 <body>
+
+	<span class="change">Mouse over the squares!</span>
+
+
+	<table style="width:300px;height:100px">
+	  <tr>
+	    <td onmouseover="bgChange(this.style.backgroundColor)" 
+		style="background-color:Khaki">
+	    </td>
+	    <td onmouseover="bgChange(this.style.backgroundColor)" 
+		style="background-color:PaleGreen">
+	    </td>
+	    <td onmouseover="bgChange(this.style.backgroundColor)" 
+		style="background-color:Silver">
+	    </td>
+	  </tr>
+	</table>
 	<div class="sansserif">	
 	<h2 class="dashed">5. Grill Five Taco</h2>
 	<a target="_blank" href="seoul-6.JPG">
-		<img src="seoul-6.JPG" width=20% height = 300px title="fries,quesadia,beer" alt="fries,quesadia,beer"></a>
+		<img  onmouseenter="bigger(this)" onmouseleave ="normal(this)" src="seoul-6.JPG" width=20% height = 300px title="fries,quesadia,beer" alt="fries,quesadia,beer"></a>
 	<a target="_blank" href="seoul-6-2.JPG">
-		<img src="seoul-6-2.JPG" width=20% title="fries,quesadia" alt="fries,quesadia"></a>
+		<img  onmouseenter="bigger(this)" onmouseleave ="normal(this)" src="seoul-6-2.JPG" width=20% title="fries,quesadia" alt="fries,quesadia"></a>
 	<a target="_blank" href="seoul-6-3.JPG">
-		<img src="seoul-6-3.JPG" width=20% title="taco" alt="taco"></a>
+		<img  onmouseenter="bigger(this)" onmouseleave ="normal(this)" src="seoul-6-3.JPG" width=20% title="taco" alt="taco"></a>
+	<div class="ex">
+  	<button class="hide">Hide me</button>
 	<p>Location : 19-15, Woosan Road, Mapo-gu, Seoul <p>
 	<p>Type of food : Maxican </p>
 	<p>Price : Seoul Fries: 11000won bacon potatio quesadia : 7500won </p>
@@ -21,18 +41,20 @@
 	<p class="effect">Review : We can taste taco which is suitable for our taste with concept of Korean Mexican. Nachos are free of charge, so you do not have to buy them separately. <br>There is also a place on the outdoor terrace so it is good to sit in cool weather.
 </p>
 	<p>Tip: if you want to get more information <a class="click" href="https://store.naver.com/restaurants/detail?id=30836361" target="_blank"> <span> CLICK </span></a></p>
-	</div><br>
+	</div></div><br>
 
 	<div class="sansserif">	
 	<h2 class="dashed">6. COCORO BENTO</h2>
 	<a target="_blank" href="seoul-7.JPG">
-		<img src="seoul-7.JPG" width=20% title="Kyukatsu" alt="Kyukatsu"></a>
+		<img  onmouseenter="bigger(this)" onmouseleave ="normal(this)" src="seoul-7.JPG" width=20% title="Kyukatsu" alt="Kyukatsu"></a>
 	<a target="_blank" href="seoul-7-2.JPG">
-		<img src="seoul-7-2.JPG" width=20% height=300px title="Kyukatsu" alt="Kyukatsu"></a>
+		<img onmouseenter="bigger(this)" onmouseleave ="normal(this)"  src="seoul-7-2.JPG" width=20% height=300px title="Kyukatsu" alt="Kyukatsu"></a>
 	<a target="_blank" href="seoul-7-3.JPG">
-		<img src="seoul-7-3.JPG" width=20% title="Mini-barrel" alt="Mini-barrel"></a>
+		<img  onmouseenter="bigger(this)" onmouseleave ="normal(this)" src="seoul-7-3.JPG" width=20% title="Mini-barrel" alt="Mini-barrel"></a>
 	<a target="_blank" href="seoul-7-4.JPG">
-		<img src="seoul-7-4.JPG" width=20% title="cocoro bento" alt="cocoro bento"></a>
+		<img  onmouseenter="bigger(this)" onmouseleave ="normal(this)" src="seoul-7-4.JPG" width=20% title="cocoro bento" alt="cocoro bento"></a>
+	<div class="ex">
+  	<button class="hide">Hide me</button>
 	<p>Location : GF floor,77, Gangseo-gu, Seoul, Korea</p>
 	<p>Type of food : Japanese </p>
 	<p>Price : Kyukatsu : 14000won KyuDong(rice with beef) : 8500won </p>
@@ -41,15 +63,16 @@
  </p>
 
 	<p>Tip: if you want to get more information <a class="click" href="http://www.kokorobento.com/" target="_blank"> <span> CLICK </span></a></p>
-	</div>
+	</div></div><br>
 
+	<script type = "text/javascript" src = "in.js"></script>
 	<div class="pagination">
 	 	<a href="inseoul.html"><<</a>
   		<a href="inseoul.html">1</a>
 	 	<a href="inseoul2.html">2</a>
   		<a class="present" href="inseoul3.html">3</a>
   		<a href="inseoul3.html">>></a>
-	</div>
+	</div><br>
 	
 	<a href="main.html">	
 		<img src="home.png" title="home" alt="home"></a>

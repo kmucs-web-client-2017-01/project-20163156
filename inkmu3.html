@@ -4,51 +4,74 @@
 	<link rel="stylesheet" href="inkmu.css"> 
 	<title>IN KMU</title>
 	<meta charset="UTF-8">
+ 	<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
 </head>
 <body>
+
+	<span class="change">Mouse over the squares!</span>
+	<table style="width:300px;height:100px">
+	  <tr>
+	    <td onmouseover="bgChange(this.style.backgroundColor)" 
+		style="background-color:Khaki">
+	    </td>
+	    <td onmouseover="bgChange(this.style.backgroundColor)" 
+		style="background-color:PaleGreen">
+	    </td>
+	    <td onmouseover="bgChange(this.style.backgroundColor)" 
+		style="background-color:Silver">
+	    </td>
+	  </tr>
+	</table>
+
 	<div class="sansserif">	
 	<h2 class="dashed">5. 버스정류장앞 타코야끼 트럭</h2>
 	<a target="_blank" href="kmu7.JPG">
-		<img src="kmu7.JPG" width=20% title="takoyakki" alt="takoyakki"></a>
+		<img  onmouseenter="bigger(this)" onmouseleave ="normal(this)"  src="kmu7.JPG" width=20% title="takoyakki" alt="takoyakki"></a>
+	<div class="ex">
+  	<button class="hide">Hide me</button>
 	<p>Location : Food truck in front of bus stop , kookmin University, 77, Jungneung-ro, Seongbuk-gu, Seoul</p>
 	<p>Type of food :snack</p>
 	<p>Price : For 2 people : 5000won For 3 people : 8000won rice balls : 3000won </p>
 	<p class="effect">Review : Cheese flavor, spicy flavor, and barbecue flavor, etc... There are available in a variety of sauces. <br>The boss also offers a lot of services. </p>
-	</div><br>
+	</div></div><br>
 
 	<div class="sansserif">	
 	<h2 class="dashed">6. 사발떡볶이</h2>
 	<a target="_blank" href="kmu8.JPG">
-		<img src="kmu8.JPG" width=20% title="Tteokbokki" alt="Tteokbokki"></a>
+		<img onmouseenter="bigger(this)" onmouseleave ="normal(this)"   src="kmu8.JPG" width=20% title="Tteokbokki" alt="Tteokbokki"></a>
+	<div class="ex">
+  	<button class="hide">Hide me</button>
 	<p>Location : 6-45, Jungneung-ro, Seongbuk-gu, Seoul</p>
 	<p>Type of food : snack bar</p>
 	<p>Price : For 2 person : 5000won For 3 person : 8000won rice balls : 3000won </p>
 	<p class="effect">Review : The tteokbokki taste of this place is addictive and must be made to match rice balls.<br>tteokbokki soup is a little salty. So, It is delicious if you eat rice in soup. </p>
 	<p>Tip: if you want to get more information <a class="click"  href="http://blog.naver.com/love_963/220542264143" target="_blank"> <span> CLICK </span></a></p>
-	</div>
+	</div></div><br>
 
 	<div class="sansserif">	
 	<h2 class="dashed">7. 철이네</h2>
 	<video  height="400" widht="auto" controls loop>
-		<source src="kmu9.mp4">
+		<source  src="kmu9.mp4">
 	</video>
+	<div class="ex">
+  	<button class="hide">Hide me</button>
 	<p>Location :46,10-gil Jungneung-ro, Seongbuk-gu, Seoul</p>
 	<p>Type of food :korean</p>
 	<p>Price : 삼겹살 : 2500won(for 1 person) 갈매기살 : 2500won(for 1 person)</p>
 	<p class="effect">Review : It is a place where me and my friends go a lot because of the low price of 2500 won for one serving of pork. <br>The boss is a friendly person who gives services on coutomers birthday.</p>
 	<p>Tip: if you want to get more information <a class="click"  href="http://blog.naver.com/black-khan/220857792129" target="_blank"> <span> CLICK </span></a></p>
-	</div>
+	</div></div><br>
 
 
 
-	
+	<script type = "text/javascript" src = "in.js"></script>
 	<div class="pagination">
 	 	<a href="inkmu.html"><<</a>
   		<a href="inkmu.html">1</a>
 	 	<a href="inkmu2.html">2</a>
   		<a class="present" href="inkmu3.html">3</a>
   		<a href="inkmu3.html">>></a>
-	</div>
+	</div><br>
 	
 	<a href="main.html">	
 		<img src="home.png" title="home" alt="home"></a>
